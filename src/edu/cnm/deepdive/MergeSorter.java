@@ -2,8 +2,9 @@ package edu.cnm.deepdive;
 
 import java.util.Arrays;
 
-public class MergeSorter {
+public class MergeSorter extends Sorter {
 
+  @Override
   public void sort(int[] input) {
     if (input.length > 1) {
       int midpoint = input.length / 2;
